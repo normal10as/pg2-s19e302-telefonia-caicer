@@ -1,5 +1,10 @@
 ﻿Public Class Equipo
+    Sub New(serie As String, modelo As Modelo)
+        Me.Serie = serie
+        Me.Modelo = modelo
+    End Sub
     Private _serie As String
+    Public Property Modelo As Modelo
     Public Property Serie As String
         Get
             Return _serie
@@ -19,6 +24,6 @@
         Return Date.Now
     End Function
     Public Overrides Function ToString() As String
-        Return Serie
+        Return Modelo.Nombre + " " + Modelo.Marca.Nombre
     End Function
 End Class

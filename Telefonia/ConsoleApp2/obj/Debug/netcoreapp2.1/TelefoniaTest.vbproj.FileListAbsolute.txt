@@ -1,0 +1,13 @@
+C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\ConsoleApp2\obj\Debug\netcoreapp2.1\TelefoniaTest.vbprojAssemblyReference.cache
+C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\ConsoleApp2\obj\Debug\netcoreapp2.1\TelefoniaTest.AssemblyInfoInputs.cache
+C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\ConsoleApp2\obj\Debug\netcoreapp2.1\TelefoniaTest.AssemblyInfo.vb
+C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\ConsoleApp2\bin\Debug\netcoreapp2.1\TelefoniaTest.deps.json
+C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\ConsoleApp2\bin\Debug\netcoreapp2.1\TelefoniaTest.runtimeconfig.json
+C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\ConsoleApp2\bin\Debug\netcoreapp2.1\TelefoniaTest.runtimeconfig.dev.json
+C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\ConsoleApp2\bin\Debug\netcoreapp2.1\TelefoniaTest.dll
+C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\ConsoleApp2\bin\Debug\netcoreapp2.1\TelefoniaTest.pdb
+C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\ConsoleApp2\bin\Debug\netcoreapp2.1\TelefoniaEntidades.dll
+C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\ConsoleApp2\bin\Debug\netcoreapp2.1\TelefoniaEntidades.pdb
+C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\ConsoleApp2\obj\Debug\netcoreapp2.1\TelefoniaTest.vbproj.CopyComplete
+C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\ConsoleApp2\obj\Debug\netcoreapp2.1\TelefoniaTest.dll
+C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\ConsoleApp2\obj\Debug\netcoreapp2.1\TelefoniaTest.pdb

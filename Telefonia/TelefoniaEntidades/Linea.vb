@@ -1,11 +1,14 @@
 ﻿Public Class Linea
-    Public Sub New(CodigoArea As UShort, Numero As UInteger)
+    Public Sub New(CodigoArea As UShort, Numero As UInteger, equipo As Equipo)
         Me.CodigoArea = CodigoArea
         Me.Numero = Numero
+        Me.Equipo = equipo
     End Sub
     Private _codigoArea As UShort
     Private _numero As UInteger
     Private LineaEstado As Byte = 1
+
+    Public Property Equipo As Equipo
     Public Property CodigoArea As UShort
         Get
             Return _codigoArea
@@ -13,6 +16,8 @@
         Set(value As UShort)
             If value >= 100 And value <= 9999 Then
                 _codigoArea = value
+            Else
+                Throw New ArgumentException("Error de codigo")
             End If
         End Set
     End Property
@@ -38,7 +43,7 @@
     Public Sub Suspender()
         LineaEstado = 0
     End Sub
-    Public Sub Activar()
+    Public Sub Reactivar()
         LineaEstado = 1
     End Sub
     Public Overrides Function ToString() As String

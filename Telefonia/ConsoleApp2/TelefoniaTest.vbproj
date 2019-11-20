@@ -6,4 +6,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TelefoniaEntidades\TelefoniaEntidades.vbproj" />
+  </ItemGroup>
+
 </Project>
