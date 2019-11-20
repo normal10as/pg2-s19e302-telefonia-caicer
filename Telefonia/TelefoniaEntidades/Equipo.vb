@@ -20,7 +20,7 @@
             Return Vender()
         End Get
     End Property
-    Public Function Vender() As Date
+    Private Function Vender() As Date
         Return Date.Now
     End Function
     Public Overrides Function ToString() As String
