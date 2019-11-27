@@ -1,14 +1,17 @@
 ﻿Public Class Linea
-    Public Sub New(CodigoArea As UShort, Numero As UInteger, equipo As Equipo)
+    Sub New(CodigoArea As UShort, Numero As UInteger, equipo As Equipo)
         Me.CodigoArea = CodigoArea
         Me.Numero = Numero
         Me.Equipo = equipo
+        'Me.cliente = Cliente
+        Me.Plan = Plan
     End Sub
     Private _codigoArea As UShort
     Private _numero As UInteger
-    Private LineaEstado As Byte = 1
-
+    Private LineaEstado As Boolean = True
     Public Property Equipo As Equipo
+    Public Property Plan As Plan
+
     Public Property CodigoArea As UShort
         Get
             Return _codigoArea
@@ -33,7 +36,7 @@
     End Property
     Public ReadOnly Property Estado As String
         Get
-            If LineaEstado = 0 Then
+            If Not LineaEstado Then
                 Return "Suspendido"
             End If
             Return "Activo"
@@ -41,13 +44,13 @@
     End Property
 
     Public Sub Suspender()
-        LineaEstado = 0
+        LineaEstado = False
     End Sub
     Public Sub Reactivar()
-        LineaEstado = 1
+        LineaEstado = True
     End Sub
     Public Overrides Function ToString() As String
-        If LineaEstado = 0 Then
+        If Not LineaEstado Then
             Return CodigoArea & " " & Numero & " " & Estado
         End If
         Return CodigoArea & " " & Numero
