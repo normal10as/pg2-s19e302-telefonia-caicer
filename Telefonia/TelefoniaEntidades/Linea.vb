@@ -1,9 +1,9 @@
 ﻿Public Class Linea
-    Sub New(CodigoArea As UShort, Numero As UInteger, equipo As Equipo)
+    Sub New(CodigoArea As UShort, Numero As UInteger, equipo As Equipo,cliente as Cliente)
         Me.CodigoArea = CodigoArea
         Me.Numero = Numero
         Me.Equipo = equipo
-        'Me.cliente = Cliente
+        Me.cliente = Cliente
         Me.Plan = Plan
     End Sub
     Private _codigoArea As UShort
@@ -11,7 +11,7 @@
     Private LineaEstado As Boolean = True
     Public Property Equipo As Equipo
     Public Property Plan As Plan
-
+            private _clientes as list(of Cliente)
     Public Property CodigoArea As UShort
         Get
             Return _codigoArea
@@ -42,13 +42,19 @@
             Return "Activo"
         End Get
     End Property
-
+            public sub AddCliente(clientes as Cliente)
+                _clientes.add(clientes)
+            end sub
+            public sub RemoveCliente(clientes as Cliente)
+                _clientes.remove(clietes)
+            end sub
     Public Sub Suspender()
         LineaEstado = False
     End Sub
     Public Sub Reactivar()
         LineaEstado = True
     End Sub
+    
     Public Overrides Function ToString() As String
         If Not LineaEstado Then
             Return CodigoArea & " " & Numero & " " & Estado
