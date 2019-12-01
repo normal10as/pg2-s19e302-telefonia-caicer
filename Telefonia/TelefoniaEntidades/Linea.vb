@@ -48,6 +48,9 @@
             public sub RemoveCliente(clientes as Cliente)
                 _clientes.remove(clietes)
             end sub
+            public function GetAllClientes() as list (of Cliente)
+                Return _clientes
+            end function
     Public Sub Suspender()
         LineaEstado = False
     End Sub
