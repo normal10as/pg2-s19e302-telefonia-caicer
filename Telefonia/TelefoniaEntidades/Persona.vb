@@ -8,7 +8,6 @@
     End Sub
     Private _nombre As String
     Private _apellido As String
-    Private _documento As UInteger
     Public Property Nombre As String
         Get
             Return _nombre
@@ -30,13 +29,7 @@
         End Set
     End Property
     Public Property Documento As UInteger
-        Get
-            Return _documento
-        End Get
-        Set(value As UInteger)
-            _documento = value
-        End Set
-    End Property
+
     Public Overrides Function ToString() As String
         Return Apellido & " " & Nombre & " " & Cuenta
     End Function

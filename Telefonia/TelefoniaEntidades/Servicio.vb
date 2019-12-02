@@ -5,7 +5,7 @@ Public MustInherit Class Servicio
     Public Property Credito As UInteger
     Public Property Precio As Decimal Implements Plan.Precio
     Public Function getDisponilbeToString() As String Implements Plan.getDisponilbeToString
-        Return
+
     End Function
 
     Public Function getConsumosToString() As String Implements Plan.getConsumosToString
@@ -16,6 +16,6 @@ Public MustInherit Class Servicio
         sumatoriaConsumo += valor
     End Sub
     Public Function GetDisponible() As UInteger
-        Return credito - NuevoConsumo()
+        'Return Credito - NuevosConsumo()
     End Function
 End Class

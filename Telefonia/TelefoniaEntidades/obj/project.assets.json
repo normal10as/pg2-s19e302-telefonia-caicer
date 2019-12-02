@@ -179,26 +179,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Enzo\\.nuget\\packages\\": {}
+    "C:\\Users\\Caicer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Enzo\\Source\\Repos\\normal10as\\pg2-s19e302-telefonia-caicer\\Telefonia\\TelefoniaEntidades\\TelefoniaEntidades.vbproj",
+      "projectUniqueName": "C:\\Users\\Caicer\\Source\\Repos\\normal10as\\pg2-s19e302-telefonia-caicer\\Telefonia\\TelefoniaEntidades\\TelefoniaEntidades.vbproj",
       "projectName": "TelefoniaEntidades",
-      "projectPath": "C:\\Users\\Enzo\\Source\\Repos\\normal10as\\pg2-s19e302-telefonia-caicer\\Telefonia\\TelefoniaEntidades\\TelefoniaEntidades.vbproj",
-      "packagesPath": "C:\\Users\\Enzo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Enzo\\Source\\Repos\\normal10as\\pg2-s19e302-telefonia-caicer\\Telefonia\\TelefoniaEntidades\\obj\\",
+      "projectPath": "C:\\Users\\Caicer\\Source\\Repos\\normal10as\\pg2-s19e302-telefonia-caicer\\Telefonia\\TelefoniaEntidades\\TelefoniaEntidades.vbproj",
+      "packagesPath": "C:\\Users\\Caicer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Caicer\\Source\\Repos\\normal10as\\pg2-s19e302-telefonia-caicer\\Telefonia\\TelefoniaEntidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Enzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Caicer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

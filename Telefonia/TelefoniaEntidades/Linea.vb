@@ -1,17 +1,18 @@
-﻿Public Class Linea
-    Sub New(CodigoArea As UShort, Numero As UInteger, equipo As Equipo,cliente as Cliente)
+﻿Imports TelefoniaEntidades
+
+Public Class Linea
+    Implements Plan
+    Sub New(CodigoArea As UShort, Numero As UInteger, equipo As Equipo, cliente As Cliente)
         Me.CodigoArea = CodigoArea
         Me.Numero = Numero
         Me.Equipo = equipo
-        Me.cliente = Cliente
-        Me.Plan = Plan
+        _cliente = New List(Of Cliente)
     End Sub
     Private _codigoArea As UShort
     Private _numero As UInteger
     Private LineaEstado As Boolean = True
     Public Property Equipo As Equipo
-    Public Property Plan As Plan
-            private _clientes as list(of Cliente)
+    Private _cliente As List(Of Cliente)
     Public Property CodigoArea As UShort
         Get
             Return _codigoArea
@@ -20,7 +21,7 @@
             If value >= 100 And value <= 9999 Then
                 _codigoArea = value
             Else
-                Throw New ArgumentException("Error de codigo")
+                'Throw New ArgumentException("Error de codigo")
             End If
         End Set
     End Property
@@ -42,26 +43,37 @@
             Return "Activo"
         End Get
     End Property
-            public sub AddCliente(clientes as Cliente)
-                _clientes.add(clientes)
-            end sub
-            public sub RemoveCliente(clientes as Cliente)
-                _clientes.remove(clietes)
-            end sub
-            public function GetAllClientes() as list (of Cliente)
-                Return _clientes
-            end function
+
+    Public Property Precio As Decimal Implements Plan.Precio
+
+    Public Sub AddCliente(cliente As Cliente)
+        cliente.Linea = Me
+        _cliente.Add(cliente)
+    End Sub
+    Public Function GetAllClientes() As List(Of Cliente)
+        Return _cliente
+    End Function
+    Public Sub RemoveCuenta(cliente As Cliente)
+        cliente.Linea = Me
+        _cliente.Remove(cliente)
+    End Sub
     Public Sub Suspender()
         LineaEstado = False
     End Sub
     Public Sub Reactivar()
         LineaEstado = True
     End Sub
-    
     Public Overrides Function ToString() As String
         If Not LineaEstado Then
             Return CodigoArea & " " & Numero & " " & Estado
         End If
         Return CodigoArea & " " & Numero
+    End Function
+    Public Function getDisponilbeToString() As String Implements Plan.getDisponilbeToString
+
+    End Function
+
+    Public Function getConsumosToString() As String Implements Plan.getConsumosToString
+        Throw New NotImplementedException()
     End Function
 End Class

@@ -6,3 +6,11 @@ C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\Tel
 C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\TelefoniaEntidades\obj\Debug\netstandard2.0\TelefoniaEntidades.AssemblyInfo.vb
 C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\TelefoniaEntidades\obj\Debug\netstandard2.0\TelefoniaEntidades.dll
 C:\Users\Enzo\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\TelefoniaEntidades\obj\Debug\netstandard2.0\TelefoniaEntidades.pdb
+C:\Users\Caicer\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\TelefoniaEntidades\obj\Debug\netstandard2.0\TelefoniaEntidades.vbprojAssemblyReference.cache
+C:\Users\Caicer\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\TelefoniaEntidades\obj\Debug\netstandard2.0\TelefoniaEntidades.AssemblyInfoInputs.cache
+C:\Users\Caicer\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\TelefoniaEntidades\obj\Debug\netstandard2.0\TelefoniaEntidades.AssemblyInfo.vb
+C:\Users\Caicer\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\TelefoniaEntidades\obj\Debug\netstandard2.0\TelefoniaEntidades.dll
+C:\Users\Caicer\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\TelefoniaEntidades\obj\Debug\netstandard2.0\TelefoniaEntidades.pdb
+C:\Users\Caicer\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\TelefoniaEntidades\bin\Debug\netstandard2.0\TelefoniaEntidades.deps.json
+C:\Users\Caicer\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\TelefoniaEntidades\bin\Debug\netstandard2.0\TelefoniaEntidades.dll
+C:\Users\Caicer\Source\Repos\normal10as\pg2-s19e302-telefonia-caicer\Telefonia\TelefoniaEntidades\bin\Debug\netstandard2.0\TelefoniaEntidades.pdb
